@@ -5,38 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="896ee6cf-3785-4c5d-9c56-e5499f68b219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api/api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../application_recette/application_recette.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cartemagic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv3/cv3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv4html/cv4html.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv_react/cv_react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cvkriss_boulot/cvkriss_boulot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dashboard_template_budget/.idea/dashboard_template_budget.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../effata2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jeubis/jeubis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pendu/pendu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portfolio/portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portfolio2/portfolio2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projet_arolla/projet_arolla.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projet_dashboard/.idea/projet_dashboard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projet_kriss/projet_kriss.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recette_api/recette_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo/spring_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tennis/Tennis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TennisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tuto_git_revert/tuto_git_revert.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../video-course-generator/.idea/video-course-generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../short-video-saas/frontend/src/components/SceneEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../short-video-saas/frontend/src/components/SceneEditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../short-video-saas/frontend/src/pages/CreateVideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../short-video-saas/frontend/src/pages/CreateVideoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tennis/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Tennis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Tennis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -150,12 +122,25 @@
       <option name="presentableId" value="Default" />
       <updated>1770452258964</updated>
       <workItem from="1770452260043" duration="14000" />
-      <workItem from="1770452877707" duration="1934000" />
+      <workItem from="1770452877707" duration="3303000" />
     </task>
+    <task id="LOCAL-00001" summary="troisieme_test">
+      <option name="closed" value="true" />
+      <created>1770454954891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770454954891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="troisieme_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="troisieme_test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

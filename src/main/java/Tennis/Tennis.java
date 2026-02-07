@@ -16,17 +16,14 @@ public class Tennis {
 
      public String getScore() {
         if(player1.getScore() == 0 && player2.getScore() == 0) {
-            score = "Love-All";
-            return score;
+            return Score.LOVE_ALL.getDisplayName();
         }
         if(player1.getScore() == 0 && player2.getScore() == 15) {
-            score = "Love-Fifteen";
-            return score;
+            return Score.LOVE_FIFTEEN.getDisplayName();
         }
 
          if(player1.getScore() == 15 && player2.getScore() == 0) {
-             score = "Fifteen-Love";
-             return score;
+             return Score.FIFTEEN_LOVE.getDisplayName();
          }
 
          return score;

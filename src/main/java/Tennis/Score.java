@@ -1,18 +1,17 @@
 package Tennis;
 
 public enum Score {
-    LOVE_ALL(0, 0, "Love-All"),
-    FIFTEEN_LOVE(15, 0, "Fifteen-Love"),
-    LOVE_FIFTEEN(0, 15, "Love-Fifteen");
+    LOVE(0, "Love"),
+    FIFTEEN(15, "Fifteen"),
+    THIRTY(30, "Thirty"),
+    FORTY(40, "Forty"),
+    DEUCE(40, "Deuce" );
 
-    private final int player1Score;
-    private final int player2Score;
+    private final int points;
     private final String display;
 
-
-    Score(int player1Score, int player2Score, String display) {
-        this.player1Score = player1Score;
-        this.player2Score = player2Score;
+    Score(int points, String display) {
+        this.points = points;
         this.display = display;
     }
 
@@ -20,13 +19,7 @@ public enum Score {
         return display;
     }
 
-    public int getPlayer1Score() {
-        return player1Score;
+    public int getPoints() {
+        return points;
     }
-
-    public int getPlayer2Score() {
-        return player2Score;
-    }
-
-    // Potentiellement d'autres getters si nécessaire
 }

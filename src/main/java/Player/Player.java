@@ -21,4 +21,9 @@ public class Player {
         this.score = score;
         return score;
     }
+
+    public void scoredAfter40(Player player) {
+        player.setScore(player.getScore() + 1);
+    }
+
 }

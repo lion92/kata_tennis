@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="896ee6cf-3785-4c5d-9c56-e5499f68b219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tennis/Score.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Tennis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Tennis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,9 +105,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TennisTest" />
+        <item itemvalue="JUnit.TennisTest.should_return_loveAll_when_score_player1_player2_are_0" />
         <item itemvalue="JUnit.TennisTest.should_return_fifteen_love_when_score_player1_player2_are_15_0" />
         <item itemvalue="JUnit.TennisTest.should_return_love_fifteen_when_score_player1_player2_are_0_15" />
-        <item itemvalue="JUnit.TennisTest.should_return_loveAll_when_score_player1_player2_are_0" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1770452258964</updated>
       <workItem from="1770452260043" duration="14000" />
-      <workItem from="1770452877707" duration="3303000" />
+      <workItem from="1770452877707" duration="3394000" />
     </task>
     <task id="LOCAL-00001" summary="troisieme_test">
       <option name="closed" value="true" />
@@ -132,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770454954891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refacto">
+      <option name="closed" value="true" />
+      <created>1770456223534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770456223534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="troisieme_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="troisieme_test" />
+    <MESSAGE value="refacto" />
+    <option name="LAST_COMMIT_MESSAGE" value="refacto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

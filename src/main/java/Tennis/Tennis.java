@@ -15,14 +15,14 @@ public class Tennis {
 
 
      public String getScore() {
-        if(player1.getScore() == 0 && player2.getScore() == 0) {
+        if(Score.LOVE_ALL.getPlayer1Score() == player1.getScore() && Score.LOVE_ALL.getPlayer2Score() == player2.getScore()) {
             return Score.LOVE_ALL.getDisplayName();
         }
-        if(player1.getScore() == 0 && player2.getScore() == 15) {
+        if(Score.LOVE_FIFTEEN.getPlayer1Score() == player1.getScore() && Score.LOVE_FIFTEEN.getPlayer2Score() == player2.getScore()) {
             return Score.LOVE_FIFTEEN.getDisplayName();
         }
 
-         if(player1.getScore() == 15 && player2.getScore() == 0) {
+         if(Score.FIFTEEN_LOVE.getPlayer1Score() == player1.getScore() && Score.FIFTEEN_LOVE.getPlayer2Score() == player2.getScore()) {
              return Score.FIFTEEN_LOVE.getDisplayName();
          }
 
